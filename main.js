@@ -6,7 +6,7 @@ let message=""
 let sum=firstCard+secondCard
 let messageEl=document.getElementById("message-el")
 let sumEl=document.getElementById("sum-el")
-
+let cardsEl=document.getElementById("cards-el")
 function startGame(){
 
     if (sum<=20){
@@ -19,6 +19,10 @@ function startGame(){
         isAlive=false
     }
     messageEl.textContent=message
-    sumEl.innerText+=" "
-    sumEl.innerText+=sum
+    cardsEl.innerText="Cards: "+" "+firstCard+" "+secondCard
+    sumEl.innerText= "Sum: "+sum
+}
+
+function newCard(){
+    
 }
