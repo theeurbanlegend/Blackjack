@@ -15,4 +15,8 @@ h1{
     color:#016f32;
     width:150px;
     background-color:goldenrod;
+    padding:0.5rem;
+    font-weight:bold;
+    border:none;
+    border-radius:2px;
 }
